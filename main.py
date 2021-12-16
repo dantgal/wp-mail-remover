@@ -9,8 +9,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import NoSuchElementException
 
-wp_login = input('WP.PL login do poczty: ')
-wp_pass = input('WP.PL hasło do poczty: ')
+wp_login = raw_input('WP.PL login do poczty: ')
+wp_pass = raw_input('WP.PL hasło do poczty: ')
 # wp_login = ""
 # wp_pass = ""
 
